@@ -691,12 +691,12 @@
     <script>
         document.getElementById('downloadBtn').addEventListener('click', function() {
             // In a real scenario, this would be the path to your CV file
-            const cvUrl = 'pdf/CV 2 - Bryan.pdf';
+            const cvUrl = 'Cv - 2 Bryan Phillip_20251105_205906_0000.pdf';
             
             // Create a temporary anchor element to trigger download
             const link = document.createElement('a');
             link.href = cvUrl;
-            link.download = 'Your_Name_CV.pdf';
+            link.download = 'Cv - 2 Bryan Phillip';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
